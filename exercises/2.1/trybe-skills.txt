@@ -2,6 +2,7 @@ Unix
 Bash
 Git
 Lógica de Programação
+Python
 Javascript 
 Node
 HTML5
