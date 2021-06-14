@@ -4,3 +4,6 @@ Git
 Lógica de Programação
 Javascript 
 Node
+HTML5
+CSS3
+
