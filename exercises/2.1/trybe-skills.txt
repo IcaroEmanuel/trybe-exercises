@@ -2,3 +2,5 @@ Unix
 Bash
 Git
 Lógica de Programação
+Javascript 
+Node
