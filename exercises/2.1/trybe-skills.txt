@@ -2,3 +2,6 @@ Unix
 Bash
 Git
 Lógica de Programação
+HTML5
+CSS3
+
