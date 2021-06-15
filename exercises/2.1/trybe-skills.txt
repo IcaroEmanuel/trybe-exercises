@@ -1,4 +1,4 @@
-O que vou aprender na trybe?
+O que vou aprender na trybe
 
 Unix
 Bash
@@ -9,4 +9,5 @@ Javascript
 Node
 HTML5
 CSS3
+Internet
 
