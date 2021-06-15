@@ -3,6 +3,7 @@ O que vou aprender na trybe
 Unix
 Bash
 Git
+Internet
 Lógica de Programação
 Python
 Javascript 
