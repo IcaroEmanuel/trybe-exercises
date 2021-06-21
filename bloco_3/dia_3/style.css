@@ -1,3 +1,7 @@
+body{
+  font-size: 20px;
+}
+
 .caixa {
   color: white;
   display: inline-block;
@@ -64,4 +68,17 @@
   left: 600px;
   top: 200px;
   z-index: 6;
+}
+
+h1, p{
+  text-align: center;
+}
+
+.list-sites:hover{
+  background-color: #067550;
+}
+
+.list-sites:active{
+  font-size: 18px;
+  background-color: #008558;
 }
