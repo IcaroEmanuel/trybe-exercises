@@ -14,15 +14,18 @@ for (let contador = 0; contador < 6; contador += 1){
 console.log(numerosSorteados)
 
 //3 - Comparar os números escolhidos com os números sorteados e verificar se há algum número igual 
-let pontuacao = 0
+let acertos = 0
 for (let index = 0; index < numerosSorteados.length; index += 1){
   let numeroDoSorteio = numerosSorteados[index]
 
   for(let indexNumerosEscolhidos = 0; indexNumerosEscolhidos < numerosEscolhidos; indexNumerosEscolhidos += 1){
     let numeroDoUsuario = numerosEscolhidos[indexNumerosEscolhidos]
-  }
-
-  if (numeroDoSorteio === numeroDoUsuario) {
-    pontuacao += 1
+    
+    if (numeroDoSorteio === numeroDoUsuario) {
+      acertos += 1
+    }
   }
 }
+
+//4 - Mostra o resultado na tela
+console.log(`Jogo do usuário: ${numerosEscolhidos} \n Números Sorteados: ${numerosSorteados} \n Resultado Final: ${acertos}`)
