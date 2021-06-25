@@ -11,16 +11,14 @@ for (let contador = 0; contador < 6; contador += 1){
   numerosSorteados.push(numeroAleatorio)
 }
 
-console.log(numerosSorteados)
-
 //3 - Comparar os números escolhidos com os números sorteados e verificar se há algum número igual 
 let acertos = 0
 for (let index = 0; index < numerosSorteados.length; index += 1){
   let numeroDoSorteio = numerosSorteados[index]
 
-  for(let indexNumerosEscolhidos = 0; indexNumerosEscolhidos < numerosEscolhidos; indexNumerosEscolhidos += 1){
+  for(let indexNumerosEscolhidos = 0; indexNumerosEscolhidos < numerosEscolhidos.length; indexNumerosEscolhidos += 1){
     let numeroDoUsuario = numerosEscolhidos[indexNumerosEscolhidos]
-    
+
     if (numeroDoSorteio === numeroDoUsuario) {
       acertos += 1
     }
