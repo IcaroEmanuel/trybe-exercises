@@ -11,3 +11,13 @@ for (let contaLinha = 0; contaLinha < n; contaLinha += 1){
   }
   console.log(resultado);
 }
+
+//Faça um triângulo retãngulo
+let asteriscos = '*';
+let espacos = ' ';
+let base = 5;
+
+for (let index = 0; index < base; index += 1){
+  espacos = espacos + asteriscos;
+  console.log(espacos);
+};
