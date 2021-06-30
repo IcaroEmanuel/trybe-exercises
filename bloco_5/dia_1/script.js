@@ -3,8 +3,6 @@ Aqui você vai modificar os elementos já existentes utilizando apenas as funç�
 - document.getElementById()
 - document.getElementsByClassName()
 - document.getElementsByTagName()
-Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
-Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 */
 //Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
 function getElement(elements){
@@ -62,3 +60,14 @@ function toUppercase(element){
 }
 
 toUppercase('p');
+
+//Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+function showAllTags(element){
+  let getElement = document.getElementsByTagName(element);
+
+  for (index = 0; index < getElement.length; index += 1) {
+    console.log(getElement[index]);
+  }
+}
+
+showAllTags('p');
