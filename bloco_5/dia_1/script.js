@@ -3,7 +3,7 @@ Aqui você vai modificar os elementos já existentes utilizando apenas as funç�
 - document.getElementById()
 - document.getElementsByClassName()
 - document.getElementsByTagName()
-Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+
 Crie uma função que mude a cor do quadrado vermelho para branco.
 Crie uma função que corrija o texto da tag <h1>.
 Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
@@ -17,3 +17,16 @@ function getElement(elements){
 }
 
 getElement('p');
+
+//Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+function changeColorForGreen(element){
+  let getElement = document.getElementsByClassName(element);
+
+  for (index = 0; index < getElement.length; index += 1) {
+    getElement[index].style.backgroundColor = 'rgb(76,164,109)';
+  }
+
+  return getElement;
+}
+
+(changeColorForGreen('main-content'));
