@@ -3,9 +3,6 @@ Aqui você vai modificar os elementos já existentes utilizando apenas as funç�
 - document.getElementById()
 - document.getElementsByClassName()
 - document.getElementsByTagName()
-
-Crie uma função que mude a cor do quadrado vermelho para branco.
-Crie uma função que corrija o texto da tag <h1>.
 Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
 Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 */
@@ -30,3 +27,38 @@ function changeColorForGreen(element){
 }
 
 (changeColorForGreen('main-content'));
+
+//Crie uma função que mude a cor do quadrado vermelho para branco.
+function changeColorForWhite(element){
+  let getElement = document.getElementsByClassName(element);
+
+  for (index = 0; index < getElement.length; index += 1){
+    getElement[index].style.backgroundColor = 'rgb(255,255,255)';
+  }
+  return getElement;
+}
+
+changeColorForWhite('center-content');
+
+//Crie uma função que corrija o texto da tag <h1>.
+function changeHeader(element){
+  let getElement = document.getElementsByClassName(element)[0];
+
+  getElement.innerHTML = 'Exercício 5.1 - JavaScripit';
+
+  return getElement;
+}
+
+changeHeader('title');
+
+//Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+function toUppercase(element){
+  let getElement = document.getElementsByTagName(element);
+
+  for (index = 0; index < getElement.length; index += 1) {
+    getElement[index].style.textTransform = 'uppercase';
+  }
+  return getElement;
+}
+
+toUppercase('p');
