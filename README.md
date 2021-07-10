@@ -19,7 +19,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - Algoritmos e estruturas de dados
 - Softskills
 ## Clonando o projeto
-Basta clonar pelo link a seguir:
+Clone pelo link a seguir:
 ~~~ 
 git@github.com:IcaroEmanuel/trybe-exercises.git
 ~~~
