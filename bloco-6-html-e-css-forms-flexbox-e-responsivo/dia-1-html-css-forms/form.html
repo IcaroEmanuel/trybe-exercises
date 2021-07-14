@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <form action="" method="get">
+      <section>
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <div class="inputs-container">
+            <label for="full-name">Nome completo:</label>
+            <input type="text" name="full-name" id="full-name" maxlength="40" required>
+          </div>
+          <div class="inputs-container">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" maxlength="50" required>
+          </div>
+          <div class="inputs-container">
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf" maxlength="11" required>
+          </div>
+          <div class="inputs-container">
+            <label for="endereco">Endereço</label>
+            <input type="text" name="endereco" id="endereco" max="200" required>
+          </div>
+          <div class="inputs-container">
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" id="cidade" max="28" required>
+          </div>
+          <div class="inputs-container">
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado"></select>
+          </div>
+          <div class="inputs-container">
+            <label for="casa">Casa</label>
+            <input type="radio" value="casa" name="tipo-moradia" id="casa">
+            <label for="apartamento">Apartamento</label>
+            <input type="radio" value="apartamento" name="tipo-moradia" id="apartamento">
+          </div>
+        </fieldset>
+      </section>
+    </form>
+  </main>
+</body>
+</html>
