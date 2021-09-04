@@ -4,3 +4,5 @@ const tasks = [
   'programar',
   'descansar',
 ];
+
+export default tasks;
