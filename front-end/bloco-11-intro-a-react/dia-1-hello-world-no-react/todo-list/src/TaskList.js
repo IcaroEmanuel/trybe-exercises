@@ -6,9 +6,7 @@ export default class TasksList extends Component{
    const { tasks } = this.props;
   return (
     <div>
-      {tasks.map((task, index) => {
-        return <Task key={index} task={task} />
-      } )}
+      {tasks.map((task, index) => <Task key={index} task={task} />)}
     </div>
   );
  }
