@@ -5,9 +5,9 @@ export default class Task extends Component{
    const { task } = this.props
   return (
     <div>
-      <ol>
+      <ul>
         <li>{ task }</li>
-      </ol>
+      </ul>
     </div>
   );
  }
