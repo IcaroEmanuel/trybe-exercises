@@ -8,8 +8,8 @@ export default class App extends Component{
  render(){
 
   return (
-    <div className="App">
-      <h1>Olá</h1>
+    <div>
+      <h1 className="App">Todo List</h1>
       <TasksList tasks={data} />
     </div>
   );
