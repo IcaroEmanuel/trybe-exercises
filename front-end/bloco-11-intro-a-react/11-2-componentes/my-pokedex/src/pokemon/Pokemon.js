@@ -21,4 +21,4 @@ Pokemon.propTypes = {
   value: PropTypes.number,
   measurementUnit: PropTypes.string,
   image: PropTypes.string,
-};
+}.isRequired;
