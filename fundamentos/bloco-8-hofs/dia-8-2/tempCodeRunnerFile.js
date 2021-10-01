@@ -1,2 +1,1 @@
-const author = authorBornIn1974()
-console.log(author);
+console.log(books.length);
